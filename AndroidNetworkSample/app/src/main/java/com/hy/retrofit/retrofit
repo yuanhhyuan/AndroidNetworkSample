@@ -1,0 +1,9 @@
+传统的 Callback 形式的 API
+这是一份很详细的 Retrofit 2.0 使用教程（含实例讲解）
+http://blog.csdn.net/carson_ho/article/details/73732076
+
+
+Retrofit理解：
+1、注解方式定义接口
+2、通过Retrofit把网络请求（URL、方式等）封装
+3、通过回调接口获得网络请求结果

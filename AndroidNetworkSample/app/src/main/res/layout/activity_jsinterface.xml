@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hy.h5.JSInterfaceTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#336699"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入你想在html显示的数字(不输入参数会报空指针)"
+            android:inputType="number"
+            android:maxLength="7"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="java call js(I&apos;m a Button in Android" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/mWebView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

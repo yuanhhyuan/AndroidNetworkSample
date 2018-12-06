@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="webview"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <Button
+            android:id="@+id/btactivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="系统浏览器"/>
+
+        <Button
+            android:id="@+id/mwebview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="webview"/>
+
+        <Button
+            android:id="@+id/bth5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="h5"/>
+
+        <Button
+            android:id="@+id/mJSInterfaceTestActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="JSInterface"/>
+
+        <Button
+            android:id="@+id/mJsBridgeActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="JsBridge"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volley"
+            android:textColor="@android:color/holo_red_light"/>
+        <Button
+            android:id="@+id/mVolley"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Volley"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okhttp3"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <Button
+            android:id="@+id/mOkhttp3TestActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Okhttp3TestActivity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retrofit"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <Button
+            android:id="@+id/mGetRequest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GetRequest"/>
+
+        <Button
+            android:id="@+id/mGetRequest1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GetRequest1"/>
+
+        <Button
+            android:id="@+id/mPostRequest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PostRequest"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

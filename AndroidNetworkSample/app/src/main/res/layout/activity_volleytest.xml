@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btStringRequestget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StringRequestget"/>
+
+    <Button
+        android:id="@+id/btStringRequestpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StringRequestpost"/>
+
+    <Button
+        android:id="@+id/btjsonObjectRequestget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JsonObjectRequestget"/>
+
+    <Button
+        android:id="@+id/btjsonObjectRequestpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JsonObjectRequestpost"/>
+
+    <Button
+        android:id="@+id/btimageRequestGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imageRequestGet"/>
+
+    <ImageView
+        android:id="@+id/imageRequestGetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btimageLoaderGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imageLoaderGet"/>
+
+    <ImageView
+        android:id="@+id/imageLoaderGetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageViewGetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hy.okhttp3">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hy.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hy.h5.WebViewActivity"/>
+        <activity android:name="com.hy.h5.H5Activity"/>
+        <activity android:name="com.hy.h5.JSInterfaceTestActivity"/>
+        <activity android:name="com.hy.h5.JsBridgeActivity"/>
+        <activity android:name="com.hy.okhttp3.Okhttp3TestActivity"/>
+        <activity android:name="com.hy.myokhttp3.MyOkhttp3Activity"/>
+        <activity android:name="com.hy.volley.VolleyTestActivity"/>
+        <activity android:name="com.hy.login.LoginActivity"/>
+        <activity android:name="com.hy.login.RegisterActivity"/>
+        <activity android:name="com.hy.login.SuccessActivity"/>
+        <activity android:name="com.hy.retrofit.GetRequestActivity"/>
+        <activity android:name="com.hy.retrofit.GetRequestActivity1"/>
+        <activity android:name="com.hy.retrofit.PostRequestActivity"/>
+    </application>
+
+</manifest>

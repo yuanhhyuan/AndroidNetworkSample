@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script language="javascript">
+        //这个方法是与java事先商定的方法，让java来调用
+        function java_call_Js(param) {
+            var x = document.getElementById('test');
+            x.innerHTML = "Hello , New text form java ! ------------>" + param;
+        }
+
+        //Html自身Button的方法,去调用Java
+        function btn_js() {
+            jsInterface.js_call_java();
+        }
+
+</script>
+
+<input type="button" onClick="btn_js()"
+       style="height: 60px; width: 240px; margin-top: 40px ; margin-bottom: 10px"
+       value="(JS call Java)I'm a Button in html">
+
+<div id="test">
+    <font color="#FF0000">this is the old text</font>
+</div>
+</body>
+</html>

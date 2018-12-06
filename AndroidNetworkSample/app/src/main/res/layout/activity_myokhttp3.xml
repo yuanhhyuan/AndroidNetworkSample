@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.hy.okhttp3.Okhttp3TestActivity">
+
+    <Button
+        android:id="@+id/mAsynGET"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#4cc05f"
+        android:drawablePadding="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="AsynGET"
+        android:textColor="#ffffff"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/mResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"/>
+
+</RelativeLayout>
